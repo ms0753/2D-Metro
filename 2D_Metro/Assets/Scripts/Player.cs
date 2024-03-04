@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 
     [Header("Move info")]
     public float moveSpeed = 12f;
+    public float jumpForce;
 
     #region Components
     public Animator anim { get; private set; }
